@@ -4,117 +4,124 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gemini vs Gemini Mini</title>
-  <link rel="stylesheet" href="styles.css">
-  <style>/* General Styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f9f9f9;
-  color: #333;
-  line-height: 1.6;
-}
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f0f8ff; /* Blue Nile background */
+      color: #333;
+      line-height: 1.6;
+    }
 
-header {
-  background: #4caf50;
-  color: #fff;
-  text-align: center;
-  padding: 1.5rem;
-}
+    header {
+      background: #2a4d69; /* Blue Nile dark shade */
+      color: #fff;
+      text-align: center;
+      padding: 1.5rem;
+    }
 
-header h1 {
-  margin: 0;
-}
+    header h1 {
+      margin: 0;
+    }
 
-header p {
-  margin: 0.5rem 0 0;
-  font-size: 1.2rem;
-}
+    header p {
+      margin: 0.5rem 0 0;
+      font-size: 1.2rem;
+    }
 
-main {
-  padding: 2rem;
-  max-width: 900px;
-  margin: 0 auto;
-}
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
 
-.comparison-table {
-  margin: 2rem 0;
-}
+    .comparison-table {
+      margin: 2rem 0;
+    }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 2rem;
-  background: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2rem;
+      background: #fff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
-thead {
-  background: #4caf50;
-  color: #fff;
-}
+    thead {
+      background: #2a4d69;
+      color: #fff;
+    }
 
-thead th {
-  text-align: left;
-  padding: 1rem;
-}
+    thead th {
+      text-align: left;
+      padding: 1rem;
+    }
 
-tbody tr {
-  border-bottom: 1px solid #ddd;
-}
+    tbody tr {
+      border-bottom: 1px solid #ddd;
+    }
 
-tbody td {
-  padding: 1rem;
-}
+    tbody td {
+      padding: 1rem;
+    }
 
-tbody tr:nth-child(even) {
-  background: #f2f2f2;
-}
+    tbody tr:nth-child(even) {
+      background: #e6f2ff; /* Blue Nile light shade */
+    }
 
-.cta {
-  text-align: center;
-  background: #4caf50;
-  color: #fff;
-  padding: 2rem;
-  border-radius: 8px;
-}
+    .cta {
+      text-align: center;
+      background: #2a4d69;
+      color: #fff;
+      padding: 2rem;
+      border-radius: 8px;
+    }
 
-.cta h2 {
-  margin: 0 0 1rem;
-}
+    .cta h2 {
+      margin: 0 0 1rem;
+    }
 
-.cta p {
-  margin: 0 0 1.5rem;
-  font-size: 1.1rem;
-}
+    .cta p {
+      margin: 0 0 1.5rem;
+      font-size: 1.1rem;
+    }
 
-.cta .btn {
-  display: inline-block;
-  background: #fff;
-  color: #4caf50;
-  padding: 0.8rem 1.5rem;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 4px;
-  transition: background 0.3s;
-}
+    .cta .btn {
+      display: inline-block;
+      background: #fff;
+      color: #2a4d69;
+      padding: 0.8rem 1.5rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
 
-.cta .btn:hover {
-  background: #dff0d8;
-}
+    .cta .btn:hover {
+      background: #cce6ff; /* Blue Nile hover shade */
+    }
 
-/* Footer Styles */
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #333;
-  color: #fff;
-}
-</style>
+    /* Footer Styles */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: #fff;
+    }
+
+    .material-icons {
+      vertical-align: middle;
+      margin-right: 0.3rem;
+      font-size: 1.2rem;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Gemini vs Gemini Mini</h1>
+    <h1><span class="material-icons">compare</span> Gemini vs Gemini Mini</h1>
     <p>Compare the features of the full Gemini version and the free Gemini Mini version.</p>
   </header>
 
@@ -124,38 +131,38 @@ footer {
         <thead>
           <tr>
             <th>Feature</th>
-            <th>Gemini (Paid)</th>
-            <th>Gemini Mini (Free)</th>
+            <th><span class="material-icons">paid</span> Gemini (Paid)</th>
+            <th><span class="material-icons">free_breakfast</span> Gemini Mini (Free)</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Token Limit</td>
+            <td><span class="material-icons">token</span> Token Limit</td>
             <td>Unlimited</td>
             <td>500 tokens</td>
           </tr>
           <tr>
-            <td>Streaming Support</td>
+            <td><span class="material-icons">stream</span> Streaming Support</td>
             <td>Yes</td>
-            <td>NO</td>
+            <td>No</td>
           </tr>
           <tr>
-            <td>API Models</td>
+            <td><span class="material-icons">api</span> API Models</td>
             <td>Supports all models</td>
             <td>Supports basic models only</td>
           </tr>
           <tr>
-            <td>Text Length</td>
+            <td><span class="material-icons">text_fields</span> Text Length</td>
             <td>Full-length responses</td>
             <td>Short responses only</td>
           </tr>
           <tr>
-            <td>Error Handling</td>
+            <td><span class="material-icons">error</span> Error Handling</td>
             <td>Detailed</td>
             <td>Basic</td>
           </tr>
           <tr>
-            <td>Cost</td>
+            <td><span class="material-icons">money</span> Cost</td>
             <td>Subscription-based</td>
             <td>Free</td>
           </tr>
@@ -164,7 +171,7 @@ footer {
     </section>
 
     <section class="cta">
-      <h2>Upgrade to Gemini</h2>
+      <h2><span class="material-icons">upgrade</span> Upgrade to Gemini</h2>
       <p>Unlock the full potential of Gemini with unlimited tokens, full model access, and enhanced features.</p>
       <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5NM4SEPKVGFRW" class="btn">Upgrade Now</a>
     </section>
